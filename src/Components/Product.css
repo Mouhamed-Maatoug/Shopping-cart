@@ -1,0 +1,29 @@
+
+.products{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 0;
+
+}
+.product-container {
+    display: flex;
+    flex-direction: column;
+}   
+.filtrage{
+    width: 240px;
+    background-color: #ccc;
+}
+.filtre{
+ 
+}
+
+@media (min-width : 716px) {
+    .product-container {
+        flex-direction: row;
+    }   
+}{
+    
+}
